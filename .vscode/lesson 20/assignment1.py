@@ -12,5 +12,5 @@ while True:
     sensor.measure()
     tempC = sensor.temperature()
     hum = sensor.humidity()
-    print("\r", 'temperature = ', tempC, chr(176)+'C ', 'humidity = ', hum, '%', end='')
+    print("\r", 'temperature = ', tempC, '°C ', 'humidity = ', hum, '%', end='')
     time.sleep(1)
