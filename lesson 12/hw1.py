@@ -22,11 +22,6 @@ greenLED.duty_u16(0)
 blueLED.freq(1000)
 blueLED.duty_u16(0)
 
-# default bridghtness
-redBrightness = 0
-greenBrightness = 0
-blueBrightness = 0
-
 while True:
     CMD = input('What color should the LED display? (red, green, blue, cyan, magenta, yellow, orange, white)')
     if CMD == 'red':
