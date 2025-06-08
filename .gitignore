@@ -1,0 +1,42 @@
+# macOS specific files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Python specific files
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# MicroPython specific files (common for Pico W)
+# These are often device-specific or generated
+boot.py    # Uncomment if you generate or modify boot.py on device
+main.py    # Uncomment if you only want to commit project files, not the main entry point
+*.mpy      # Compiled MicroPython files
+*.log      # Log files
+data/      # A common folder for device-generated data
+
+# IDE / Editor specific files (VS Code)
+.vscode/
+# If you have specific VS Code settings you DO want to share,
+# you can remove .vscode/ and instead ignore specific sub-files/folders:
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+# ... and so on
+
+# mpremote temporary files
+.mpremote.json
