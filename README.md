@@ -12,7 +12,7 @@ I'll only be providing detailed descriptions and explanations in this README for
 This challenge explores how fast the Pico W's onboard LED can blink using myLed.toggle() and a very short delay. No external wiring or pinout diagram is needed for this lesson, as we're only using the built-in LED.
 
 ## lesson 2 Understanding and Using Breadboards
-[`hw1.py`]([https://github.com/fullstackdevell/pico-w/blob/main/lesson%201/hw1.py](https://github.com/fullstackdevell/pico-w/blob/main/lesson%202/hw1.py))
+[`hw1.py`](https://github.com/fullstackdevell/pico-w/blob/main/lesson%202/hw1.py)
 This challenge creates a SOS signal using an external LED connected to GPIO15. The code blinks the LED in a pattern of three short, three long, and three short flashes.
 [![sos led](images/lesson2.png)](https://github.com/fullstackdevell/pico-w/blob/main/images/lesson2.png)
 
