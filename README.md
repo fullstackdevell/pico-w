@@ -14,7 +14,7 @@ This challenge explores how fast the Pico W's onboard LED can blink using myLed.
 ## lesson 2 Understanding and Using Breadboards
 [`hw1.py`]([https://github.com/fullstackdevell/pico-w/blob/main/lesson%201/hw1.py](https://github.com/fullstackdevell/pico-w/blob/main/lesson%202/hw1.py))
 This challenge creates a SOS signal using an external LED connected to GPIO15. The code blinks the LED in a pattern of three short, three long, and three short flashes.
-(https://github.com/fullstackdevell/pico-w/blob/main/images/lesson2.png)
+[![sos led](images/lesson2.png)](https://github.com/fullstackdevell/pico-w/blob/main/images/lesson2.png)
 
 
 ## lesson 4 Create a Binary Counter Using the Pico W
