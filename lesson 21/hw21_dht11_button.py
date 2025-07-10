@@ -25,13 +25,13 @@ while True:
     try:
         sensor.measure()
         tempC = sensor.temperature()
-        tempF = (tempC * 9/5) +32
+        tempF = (tempC * 9/5) + 32
         humidity = sensor.humidity()
     
         if tempUnitC == True:
-            print("\rtemperature = ", tempF, chr(176) + "F", "humidity = ", humidity, "%", end="")
-        else:
             print("\rtemperature = ", tempC, chr(176) + "C", "humidity = ", humidity, "%", end="")
+        else:
+            print("\rtemperature = ", tempF, chr(176) + "F", "humidity = ", humidity, "%", end="")
     except OSError as e:
         print("\r", "Sensor error:", e, end='')
     time.sleep(0.5)

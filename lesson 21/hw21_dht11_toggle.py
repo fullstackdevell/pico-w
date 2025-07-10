@@ -24,7 +24,7 @@ while True:
     try:
         sensor.measure()
         tempC = sensor.temperature()
-        tempF = (tempC * 9/5) +32
+        tempF = (tempC * 9/5) + 32
         humidity = sensor.humidity()
     
         if displayMode == 0:
